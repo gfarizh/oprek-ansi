@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+
+  - name: Install development tools
+    yum: name={{ item }} state=present update_cache=yes
+    with_items:
+      - top
+
+  - include: /opt/ansible/role/notif_email.yml
