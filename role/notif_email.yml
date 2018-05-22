@@ -9,10 +9,10 @@
         host: smtp.gmail.com
         port: 465
         secure: always
-        sender: kemjunsa@gmail.com
-        password: 'pamongpraja'
-        username: kemjunsa@gmail.com
+        sender: k
+        password: ''
+        username: k
         timeout: 4
-        to: "Gilang Fariz Humam <gilang.fariz@kudo.co.id>"
+        to: ""
         subject: "Install | Sukses bosq"
         body: "{{ msg }}"
